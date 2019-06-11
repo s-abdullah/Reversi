@@ -1,0 +1,166 @@
+doctype html
+html
+  head
+    script(src='/socket.io/socket.io.js')
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
+    script(src ='client.js')
+  body
+    style.
+        #info { height: 75px; width: 150px; font-size: 20pt }
+    table
+      tr
+        td(width = '155')
+          button#info Information Panel
+        td
+          table
+            tr
+              td(width = '135')
+                p
+                  b
+                    font(size = '4')#piece
+              td
+                p#score1 Your Score: 2
+            tr
+              td
+                p#possible Possible Moves: 4
+              td
+                p#score2 Opponent Score: 2
+    table
+      style.
+        button { height: 50px; width: 50px; font-size: 20pt }
+      tr
+        td
+          button#m0(onclick='move(0)')
+        td
+          button#m1(onclick='move(1)')
+        td
+          button#m2(onclick='move(2)')
+        td
+          button#m3(onclick='move(3)')
+        td
+          button#m4(onclick='move(4)')
+        td
+          button#m5(onclick='move(5)')
+        td
+          button#m6(onclick='move(6)')
+        td
+          button#m7(onclick='move(7)')
+      tr
+        td
+          button#m8(onclick='move(8)')
+        td
+          button#m9(onclick='move(9)')
+        td
+          button#m10(onclick='move(10)')
+        td
+          button#m11(onclick='move(11)')
+        td
+          button#m12(onclick='move(12)')
+        td
+          button#m13(onclick='move(13)')
+        td
+          button#m14(onclick='move(14)')
+        td
+          button#m15(onclick='move(15)')
+      tr
+        td
+          button#m16(onclick='move(16)')
+        td
+          button#m17(onclick='move(17)')
+        td
+          button#m18(onclick='move(18)')
+        td
+          button#m19(onclick='move(19)')
+        td
+          button#m20(onclick='move(20)')
+        td
+          button#m21(onclick='move(21)')
+        td
+          button#m22(onclick='move(22)')
+        td
+          button#m23(onclick='move(23)')
+      tr
+        td
+          button#m24(onclick='move(24)')
+        td
+          button#m25(onclick='move(25)')
+        td
+          button#m26(onclick='move(26)')
+        td
+          button#m27(onclick='move(27)') O
+        td
+          button#m28(onclick='move(28)') X
+        td
+          button#m29(onclick='move(29)')
+        td
+          button#m30(onclick='move(30)')
+        td
+          button#m31(onclick='move(31)')
+      tr
+        td
+          button#m32(onclick='move(32)')
+        td
+          button#m33(onclick='move(33)')
+        td
+          button#m34(onclick='move(34)')
+        td
+          button#m35(onclick='move(35)') X
+        td
+          button#m36(onclick='move(36)') O
+        td
+          button#m37(onclick='move(37)')
+        td
+          button#m38(onclick='move(38)')
+        td
+          button#m39(onclick='move(39)')
+      tr
+        td
+          button#m40(onclick='move(40)')
+        td
+          button#m41(onclick='move(41)')
+        td
+          button#m42(onclick='move(42)')
+        td
+          button#m43(onclick='move(43)')
+        td
+          button#m44(onclick='move(44)')
+        td
+          button#m45(onclick='move(45)')
+        td
+          button#m46(onclick='move(46)')
+        td
+          button#m47(onclick='move(47)')
+      tr
+        td
+          button#m48(onclick='move(48)')
+        td
+          button#m49(onclick='move(49)')
+        td
+          button#m50(onclick='move(50)')
+        td
+          button#m51(onclick='move(51)')
+        td
+          button#m52(onclick='move(52)')
+        td
+          button#m53(onclick='move(53)')
+        td
+          button#m54(onclick='move(54)')
+        td
+          button#m55(onclick='move(55)')
+      tr
+        td
+          button#m56(onclick='move(56)')
+        td
+          button#m57(onclick='move(57)')
+        td
+          button#m58(onclick='move(58)')
+        td
+          button#m59(onclick='move(59)')
+        td
+          button#m60(onclick='move(60)')
+        td
+          button#m61(onclick='move(61)')
+        td
+          button#m62(onclick='move(62)')
+        td
+          button#m63(onclick='move(63)')
